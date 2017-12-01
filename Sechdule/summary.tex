@@ -1,0 +1,89 @@
+\documentclass{ctexart}
+\usepackage[fleqn]{amsmath}
+\usepackage{tabu}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{amsthm}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\lstset{
+  numbers=left, 
+  numberstyle= \tiny, 
+  keywordstyle= \color{ blue!70},
+  commentstyle= \color{red!50!green!50!blue!50}, 
+  %frame=shadowbox, % 阴影效果
+  rulesepcolor= \color{ red!20!green!20!blue!20} ,
+  escapeinside=``, % 英文分号中可写入中文
+  xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
+  framexleftmargin=2em
+} 
+\setCJKmonofont{Consolas} 
+
+\setlength{\textwidth}{14cm}
+\setlength{\textheight}{20cm}
+\setlength{\hoffset}{0cm}
+\setlength{\voffset}{0cm}
+
+\setlength{\parindent}{2em}                 
+\setlength{\parskip}{3pt plus1pt minus1pt} 
+\renewcommand{\baselinestretch}{1.2}        
+\setlength{\abovedisplayskip}{2pt plus1pt minus1pt}     
+\setlength{\belowdisplayskip}{6pt plus1pt minus1pt}     
+\setlength{\arraycolsep}{2pt}  
+\geometry{left=3.0cm,right=3.0cm,top=2.5cm,bottom=2.5cm} 
+
+\allowdisplaybreaks[4] 
+
+%\setCJKmainfont{FZJingLeiS-R-GB}
+
+%\renewcommand{\CJKglue}{\hskip 0pt plus 0.08\baselineskip}
+
+\pagestyle{fancy}
+\lhead{Noip2017总结}
+\chead{}
+\rhead{Pl}
+
+\title{Solution}
+\author{Idvz}
+\begin{document}
+\maketitle
+
+
+
+%\newfontfamily\fzyingbikaishu{方正静蕾简体}
+%\setCJKfamilyfont{方正静蕾简体}
+
+\pagenumbering{Roman}
+
+\section{Noip2017 总结}
+这次的Noip的成绩并不令人满意，对我自己而言是一个非常大的教训，这反映了自己平时在训练中的一些问题。
+
+第一个原因就是心态不稳，像Day1T1这种题目，刚开考的时候并没有好的想法，所以给自己的后续考试带来的很大的心理负担，以至于在写第二题的时候，脑子里时不时地想起第一题，心态上不稳定，让自己根本没有发挥出平时的水平，碰到这种局面不知道从何下手，还有其他的因素就是考试经验的不足，在平时很少遇到过这样的情况，而且是第一题卡了自己非常久的时间。
+
+最重要的原因就是自己的实力不强，Day1T3没有任何想法，没有关注到最短路的性质，也不知道如何去转移Dp，其次Day2T2的正解其实非常近，但没有想到怎么去优化，白白丢掉了20分，Day2T3同样没有想到正解，这些都反映了自己的实力并不强，这是最主要的原因。只有自己达到了那样的水平，才能做出题目来，所以，在后续的训练中主要的是要训练自己的思维能力，转化模型的能力，像今年的联赛题只要想出了模型，剩下的就是把算法往上面套。
+
+在之后的训练中，主要是从几个方面来强化自己的水平，最重要的就是思维能力，在做题的时候需要想这个题目有什么特点，它的算法是怎样的，是怎么想到这一点的，总结出来就是套路，再把模型推广，就能解决这一类问题，在之前虽然有这样的意识，但做得太少了，套路见得并不多。同时，也还要和别人多交流，能见到一些自己没有见过的套路。实力的提升需要沉下心来，把这一类问题的所有套路全部都学会，这样这个知识点才算是真正的学会了，在学完之后，一定需要总结，总结能给自己一些更多的思考，非常有利于自己的提升。
+
+第二个就是多积累考试经验，不管是什么样的考试，只要考试，就认真的考，考后思考自己的考试策略到底对不对，再及时调整，同时也还要克服自己在心态上面的问题，一定要让自己的心态稳下来。也还要思考自己考场上的做法有什么不足，或者为什么没有想到，再去找几道类似的题目做，总结出套路。
+
+以这样的联赛分，给自己的省选带来了不利，但是最重要的是自己实力的提升。只剩下五个月的时间，还剩下许多算法需要学习，根据省选计划上面的内容，作出一些大致的计划。
+
+\begin{itemize}
+\item 数论，主要是莫比乌斯反演，FFT,NTT,生成函数，Polya定理，组合数学
+\item 图论，网络流，树的点（边）分治
+\item 数据结构，可持久化平衡树，莫队，CDQ分治，整体二分，以及各种数据结构的好题，套路题
+\item 动态规划，四边形不等式优化，维护凸包，虚数上的Dp
+\item 字符串，manacher，trie树，AC自动机，后缀数组，后缀自动机，回文树
+\end{itemize}
+
+特别地需要注意的是，在学习一个算法之后，要和pyh大佬交流，他会一些很少人见过的套路，其次学完之后一定要总结，还有就是时间真的不是很多了，需要提高自己的效率，把周日的时间也要利用上。平时可以记下几道题，在路上或者其他的时间让自己保持思考的状态。
+
+沉下心来，下定决心，认真学。
+
+\newpage
+
+\end{document}

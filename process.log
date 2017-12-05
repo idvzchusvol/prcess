@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.10.30)  3 DEC 2017 16:39
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.10.30)  5 DEC 2017 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1662,18 +1662,23 @@ Overfull \hbox (21.1547pt too wide) in alignment at lines 541--565
  []
 
 [14]
-Overfull \hbox (21.1547pt too wide) in alignment at lines 565--589
+Overfull \hbox (21.1547pt too wide) in alignment at lines 565--591
  [] [] [] [] [] [] [] [] [] [] 
  []
 
 [15]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 591.
- [16]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 591.
+Overfull \hbox (21.1547pt too wide) in alignment at lines 591--597
+ [] [] [] [] [] [] [] [] [] [] 
+ []
+
+[16]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 599.
+ [17]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 599.
  (./process.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 591.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 591.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 591.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 599.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 599.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 599.
  ) 
 Here is how much of TeX's memory you used:
  27601 strings out of 493638
@@ -1684,4 +1689,4 @@ Here is how much of TeX's memory you used:
  1328 hyphenation exceptions out of 8191
  65i,7n,77p,10433b,426s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on process.pdf (16 pages).
+Output written on process.pdf (17 pages).

@@ -1,0 +1,99 @@
+\documentclass{ctexart}
+\usepackage[fleqn]{amsmath}
+\usepackage{tabu}
+\usepackage{amssymb}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{amsthm}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{amssymb}
+\usepackage{wasysym}
+\lstset{
+  numbers=left, 
+  numberstyle= \tiny, 
+  keywordstyle= \color{ blue!70},
+  commentstyle= \color{red!50!green!50!blue!50}, 
+  %frame=shadowbox, % 阴影效果
+  rulesepcolor= \color{ red!20!green!20!blue!20} ,
+  escapeinside=``, % 英文分号中可写入中文
+  xleftmargin=2em,xrightmargin=2em, aboveskip=1em,
+  framexleftmargin=2em
+} 
+\setCJKmonofont{Consolas} 
+
+\setlength{\textwidth}{14cm}
+\setlength{\textheight}{20cm}
+\setlength{\hoffset}{0cm}
+\setlength{\voffset}{0cm}
+
+\setlength{\parindent}{2em}                 
+\setlength{\parskip}{3pt plus1pt minus1pt} 
+\renewcommand{\baselinestretch}{1.2}        
+\setlength{\abovedisplayskip}{2pt plus1pt minus1pt}     
+\setlength{\belowdisplayskip}{6pt plus1pt minus1pt}     
+\setlength{\arraycolsep}{2pt}  
+\geometry{left=3.0cm,right=3.0cm,top=2.5cm,bottom=2.5cm} 
+
+\allowdisplaybreaks[4] 
+
+\pagestyle{fancy}
+\lhead{Schedule}
+\chead{}
+\rhead{Author Idvz}
+
+\title{Solution}
+\author{Idvz}
+\begin{document}
+\date{}
+\maketitle
+
+
+
+%\newfontfamily\fzyingbikaishu{方正静蕾简体}
+%\setCJKfamilyfont{方正静蕾简体}
+
+\pagenumbering{Roman}
+
+\section{总计划}
+\begin{itemize}
+\item 12月计划\\
+  莫比乌斯反演，狄利克雷卷积，杜教筛，FFT，NTT，线性基，2-SAT
+\item 1月计划\\
+  莫队，CDQ分治，虚树，LCT维护子树信息，可持久化平衡树，树分治，dsu on tree
+\item 2月计划\\
+  manacher，trie树，AC自动机，后缀数组，回文树，后缀自动机
+\end{itemize}
+  
+
+\section{12月计划}
+
+莫比乌斯反演（10天），FFT（15天）。
+
+pyh的博客中的莫比乌斯反演的题目
+
+\begin{table}  
+  \begin{center}  
+    \begin{tabular*}{12cm}{llll}
+      Date & Name & Source  & Algorithm\\
+      \hline
+      17.12.3 & Zap & BZOJ & 反演\\
+      & YY的Gcd & BZOJ & 反演\\
+      \hline
+      17.12.4 & 数字 & BZOJ  & 反演\\
+      \hline
+      17.12.5 & Crash的数字表格 & BZOJ  & 反演\\
+      & 完全平方数 & BZOJ  & 反演+二分\\
+      & 仪仗队 & BZOJ  & 欧拉函数\\
+      & Jzatab & BZOJ  & 反演\\
+      & 约数和个数 & BZOJ  & 反演\\
+      \hline
+      17.12.6 & Number Challenge & Codeforces  & 反演\\
+      \hline
+      17.12.7 & 数表 & BZOJ & 反演+树状数组\\
+      & 能量采集 & BZOJ  & 反演\\
+    \end{tabular*}  
+  \end{center}  
+\end{table}  
+\end{document}

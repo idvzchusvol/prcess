@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.10.30)  22 DEC 2017 18:30
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.10.30)  28 DEC 2017 22:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1458,10 +1458,10 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 
 ] (./schedule.aux) ) 
 Here is how much of TeX's memory you used:
- 23963 strings out of 493638
- 469130 string characters out of 6146795
- 450753 words of memory out of 5000000
- 27132 multiletter control sequences out of 15000+600000
+ 23964 strings out of 493638
+ 469194 string characters out of 6146795
+ 451753 words of memory out of 5000000
+ 27133 multiletter control sequences out of 15000+600000
  9176 words of font info for 54 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  65i,6n,77p,10441b,308s stack positions out of 5000i,500n,10000p,200000b,80000s

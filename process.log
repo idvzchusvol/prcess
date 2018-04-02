@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.10.30)  2 APR 2018 17:13
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2017.10.30)  2 APR 2018 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1742,13 +1742,21 @@ Overfull \hbox (152.239pt too wide) in alignment at lines 969--995
  []
 
 
-Overfull \hbox (152.239pt too wide) in alignment at lines 995--1018
+Overfull \hbox (57.10446pt too wide) in alignment at lines 995--1018
  [] [] [] [] [] [] [] [] [] [] 
  []
 
-[26] [27]
+[26]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 1 on input line 1018.
+
+[27]
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1020.
- [28]
+[28]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1020.
  (./process.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1020.
